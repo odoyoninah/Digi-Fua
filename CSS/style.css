@@ -1,8 +1,76 @@
-body{
+/* body{
     margin: 0%;
     padding: 0%;
 }
 
 .Nguo{
     background-image: url(./piling\ clothes.jpg);
+} */
+
+body{
+    margin: 0%;
+    padding: 0%;
 }
+
+/* body{
+    background-image: url(./images/piling\ clothes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative; */
+    
+
+    
+
+.Nguo{
+    text-align: left;
+border-radius: nullpx;
+position: absolute;
+
+font-family: Sanchez;
+font-style: italic;
+
+color: #1B17F1;
+
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+height: 50px;
+width: 100px;
+
+
+}
+
+.us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.us li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 60px;
+    font: bolder;
+    
+}
+
+a:hover{
+    opacity: 0.5;
+    font-size: 19px;
+    color: blue;
+}
+
+.search{
+    position: relative;
+    margin-top: 10px;
+    background: #1B17F1;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
